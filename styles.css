@@ -1,14 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: navajowhite;
     min-height: 100vh;
     font-family: sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+ul {
+    list-style: none;
+}
+.line-through {
+    text-decoration: line-through;
+    opacity: .5;
+    filter: blur(.5px);
+    color: red;
 }
 h1 {
     text-align: center;
+    margin-bottom: 2rem;
 }
 .task-section {
-    background-color: red;
     width: max-content;
     margin: 0 auto;
-    padding: .5rem;
+}
+#tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.task-item:hover {
+    cursor: pointer;
 }
