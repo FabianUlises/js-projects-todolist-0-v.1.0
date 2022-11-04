@@ -1,0 +1,14 @@
+body {
+    background-color: navajowhite;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.task-section {
+    background-color: red;
+    width: max-content;
+    margin: 0 auto;
+    padding: .5rem;
+}
